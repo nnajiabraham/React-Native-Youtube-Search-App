@@ -1,6 +1,6 @@
-#React Native Youtube Search App
+# React Native Youtube Search App
 
-##To run
+## To run
 
 - Download and Install Expo XDE and Install Expo Mobile App on your Phone
 - Run Npm install
