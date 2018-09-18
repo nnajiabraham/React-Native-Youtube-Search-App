@@ -14,6 +14,8 @@ class SearchBar extends Component {
           style={searchTextStyle}
           onChangeText={term => this.setState({ term })}
           value={this.state.term}
+          underlineColorAndroid={'rgba(0, 0, 0, 0)'}
+          onSubmitEditing={() => this.props.onPressSearch(this.state.term)}
         />
         <Button
           raised
