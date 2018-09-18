@@ -16,7 +16,9 @@ class SearchBar extends Component {
           value={this.state.term}
         />
         <Button
+          raised
           buttonStyle={buttonStyle}
+          icon={{ name: 'search' }}
           title={this.props.loading ? 'Loading...' : 'Search'}
           onPress={() => this.props.onPressSearch(this.state.term)}
         />
@@ -27,17 +29,24 @@ class SearchBar extends Component {
 
 const styles = {
   containerStyle: {
-    marginTop: 75,
+    marginTop: 50,
     marginLeft: 10,
     marginRight: 10,
-    flexDirection: 'row'
+    height: 100,
+    marginBottom: 20,
+    flexDirection: 'column'
   },
   searchTextStyle: {
-    flex: 1
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 2,
+    height: 100,
+    marginBottom: 10
   },
   buttonStyle: {
-    height: 30,
-    marginBottom: 8
+    backgroundColor: '#E62117',
+    height: 50
+    //marginBottom: 8
   }
 };
 

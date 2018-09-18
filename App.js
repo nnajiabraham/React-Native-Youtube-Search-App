@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import YTSearch from 'youtube-api-search';
+import YTSearch from './YTSearch';
 import AppHeader from './components/Header';
 import SearchBar from './components/SearchBar';
 import VideoList from './components/VideoList';
@@ -12,6 +12,10 @@ export default class App extends Component {
     loading: false,
     videos: []
   };
+
+  componentWillMount() {
+    this.searchYT('');
+  }
 
   onPressSearch = term => {
     this.searchYT(term);
@@ -31,7 +35,7 @@ export default class App extends Component {
     const { loading, videos } = this.state;
 
     return (
-      <View style={{ flex: 1, backgroundColor: '#ddd' }}>
+      <View style={{ flex: 1, backgroundColor: '#000' }}>
         <AppHeader headerText="React-Native YouTube Search" />
         <SearchBar loading={loading} onPressSearch={this.onPressSearch} />
         <VideoList videos={videos} />
