@@ -1,17 +1,17 @@
 {
   "expo": {
-    "name": "react-native-youtube-search",
+    "name": "React Native Youtube Search",
     "description": "Returns a result of youtube video from search query",
-    "author": "Abraham Nnaji",
     "slug": "react-native-youtube-search",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
     "version": "0.2.0",
     "orientation": "portrait",
+    "primaryColor": "#E62117",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/circle.png",
       "resizeMode": "contain",
       "backgroundColor": "#000"
     },
@@ -20,7 +20,14 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "buildNumber": "0.2.0"
+
+    },
+    "android": {
+        "package": "com.carveel.reactnativeyoutubesearch",
+        "versionCode": 1,
+        "permissions": []
     }
   }
 }

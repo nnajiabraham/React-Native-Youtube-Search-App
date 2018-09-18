@@ -1,6 +1,9 @@
 {
-  "name": "empty-project-template",
+  "name": "React-Native-Youtube-Search",
+    "version": "0.2.0",
+  "descripton": "A Youtube Search Application",
   "main": "node_modules/expo/AppEntry.js",
+  "author": "Abraham Nnaji",
   "private": true,
   "scripts": {
     "start": "expo start",
