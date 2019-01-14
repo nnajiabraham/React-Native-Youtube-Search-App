@@ -2,7 +2,7 @@
 
 ## To run
 
-Follow this link to view app on Appetize [Click Here](https://appetize.io/app/u75x3bza5byv6vuk9zyjdw9w5m).
+Follow this link to view app on Appetize [Click Here](https://appetize.io/app/u75x3bza5byv6vuk9zyjdw9w5m). This was done trying out RN and EXPO with the YoutubeAPI
 
 - Download and Install Expo XDE and Install Expo Mobile App on your Phone
 - Run Npm install
